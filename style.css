@@ -60,7 +60,7 @@ h1{
     background-color: #999;
     transition: .6s ease;
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 750px){
     .row button{
         height: 50px;
     }
