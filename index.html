@@ -11,52 +11,54 @@
 </head>
 
 <body>
-    <h1>Calculator</h1>
-    <br>
-    <div id="calculator">
-        <div id="input">
-            <input type="text" placeholder="0" name="expressionInput" id="expressionInput">
-        </div>
+    <div id="page">
 
-        <div id="buttons">
-            <div class="row">
-                <button class="activeButtons">(</button>
-                <button class="activeButtons">)</button>
-                <button style="background-color: rgb(196, 52, 52);" onclick="deleteAll()">C</button>
-                <button style="background-color: tomato;" onclick="deleteLast()"><--</button>
+        <h1>Calculator</h1>
+        <br>
+        <div id="calculator">
+            <div id="input">
+                <input type="text" placeholder="0" name="expressionInput" id="expressionInput">
             </div>
 
-            <div class="row">
-                <button class="activeButtons">7</button>
-                <button class="activeButtons">8</button>
-                <button class="activeButtons">9</button>
-                <button style="background-color: cornflowerblue;" class="activeButtons">+</button>
+            <div id="buttons">
+                <div class="row">
+                    <button class="activeButtons">(</button>
+                    <button class="activeButtons">)</button>
+                    <button style="background-color: rgb(196, 52, 52);" onclick="deleteAll()">C</button>
+                    <button style="background-color: tomato;" onclick="deleteLast()"><--</button>
+                </div>
 
-            </div>
+                <div class="row">
+                    <button class="activeButtons">7</button>
+                    <button class="activeButtons">8</button>
+                    <button class="activeButtons">9</button>
+                    <button style="background-color: cornflowerblue;" class="activeButtons">+</button>
 
-            <div class="row">
-                <button class="activeButtons">4</button>
-                <button class="activeButtons">5</button>
-                <button class="activeButtons">6</button>
-                <button style="background-color: orange;" class="activeButtons">-</button>
-            </div>
+                </div>
 
-            <div class="row">
-                <button class="activeButtons">1</button>
-                <button class="activeButtons">2</button>
-                <button class="activeButtons">3</button>
-                <button style="background-color: rgb(255, 158, 255);" class="activeButtons">*</button>
-            </div>
+                <div class="row">
+                    <button class="activeButtons">4</button>
+                    <button class="activeButtons">5</button>
+                    <button class="activeButtons">6</button>
+                    <button style="background-color: orange;" class="activeButtons">-</button>
+                </div>
 
-            <div class="row">
-                <button style="background-color: #999;" class="activeButtons">.</button>
-                <button class="activeButtons">0</button>
-                <button style="background-color:rgb(27, 158, 27)" onclick="calculate()">=</button>
-                <button style="background-color: #8a59e6;" class="activeButtons">/</button>
+                <div class="row">
+                    <button class="activeButtons">1</button>
+                    <button class="activeButtons">2</button>
+                    <button class="activeButtons">3</button>
+                    <button style="background-color: rgb(255, 158, 255);" class="activeButtons">*</button>
+                </div>
+
+                <div class="row">
+                    <button style="background-color: #999;" class="activeButtons">.</button>
+                    <button class="activeButtons">0</button>
+                    <button style="background-color:rgb(27, 158, 27)" onclick="calculate()">=</button>
+                    <button style="background-color: #8a59e6;" class="activeButtons">/</button>
+                </div>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>
